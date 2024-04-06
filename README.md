@@ -1,7 +1,7 @@
 # canal
 
 一个开箱即用的http代理 ( 基于 Cloudflare WARP )  
-Setting Up an Out of Box HTTP Proxy with Warp Docker
+Setting Up an Out of Box HTTP Proxy with Cloudflare WARP in Docker
 
 
 ## 部署
