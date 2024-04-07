@@ -1,6 +1,6 @@
 # canal
 
-一个开箱即用的 http / socks5 代理 ( 基于 Cloudflare WARP )
+一个开箱即用的 http / socks5 代理（基于 Cloudflare WARP）
 
 Setting Up an Out of Box HTTP/SOCKS5 Proxy with Cloudflare WARP in Docker
 
@@ -33,7 +33,7 @@ docker run -d -p 127.0.0.1:1080:1080/tcp -p 127.0.0.1:1080:1080/udp -e SOCKS5_MO
 curl --socks5 127.0.0.1:1080 ipinfo.io
 ```
 
-## 使用 WARP+
+## 使用 WARP+（可选）
 
 ```
 # 容器部署后，输入以下命令进入容器
